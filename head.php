@@ -6,4 +6,6 @@
 	if (file_exists($folder.'/demo.js')) echo '<script type="text/javascript" href="/'.$folder.'/demo.js"></script>';
 ?>
 
+<title>Playground</title>
+
 </head>
