@@ -1,0 +1,137 @@
+/*============================
+=            Grid            =
+============================*/
+
+.w-25
+{ width: 25%; }
+.w-30
+{ width: 30%; }
+.w-33
+{ width: 33.33%; }
+.w-40
+{ width: 40%; }
+.w-50
+{ width: 50%; }
+.w-60
+{ width: 60%; }
+.w-66
+{ width: 66.66%; }
+.w-70
+{ width: 70%; }
+.w-75
+{ width: 75%; }
+.w-100
+{ width: 100%; }
+
+.h-25
+{ height: 25%; }
+.h-30
+{ height: 30%; }
+.h-33
+{ height: 33.33%; }
+.h-40
+{ height: 40%; }
+.h-50
+{ height: 50%; }
+.h-60
+{ height: 60%; }
+.h-66
+{ height: 66.66%; }
+.h-70
+{ height: 70%; }
+.h-75
+{ height: 75%; }
+.h-100
+{ height: 100%; }
+
+.one-quarter,.one-third,.one-half,.two-thirds,.three-quarters,.full
+{ float: left; margin: 0 .5%; padding: 0 .5%; }
+.one-quarter
+{ width: 23%; }
+.one-third
+{ width: 31.33%; }
+.one-half
+{ width: 48%; }
+.two-thirds
+{ width: 64.66%; }
+.three-quarters
+{ width: 73%; }
+.full
+{ width: 98%; }
+
+body
+{ padding: 0 !important; }
+
+.block
+{ margin:5px 0; padding:10px; float:left; }
+
+.block > .item
+{ float:left; }
+
+@media (min-width: 400px) {
+	.block
+	{ margin:5px; }
+}
+.w-1
+{ width:135px; }
+.w-2
+{ width:300px; }
+.w-3
+{ width:465px; }
+.w-4
+{ width:630px; }
+.w-5
+{ width:795px; }
+.w-6
+{ width:960px; }
+.w-7
+{ width:1025px; }
+.w-8
+{ width:1290px; }
+
+.h-1
+{ height:135px; }
+.h-2
+{ height:300px; }
+.h-3
+{ height:465px; }
+.h-4
+{ height:630px; }
+
+body.four-col .content
+{ margin: 0 auto; width: 1320px; }
+body.three-col .content
+{ margin: 0 auto; width: 990px; }
+body.two-col .content
+{ margin: 0 auto; width: 660px; }
+body.one-col .content
+{ margin: 0 auto; width: 320px; }
+
+body.three-col .block.w-7,
+body.three-col .block.w-8
+{ width:960px; }
+body.two-col .block.w-5,
+body.two-col .block.w-6,
+body.two-col .block.w-7,
+body.two-col .block.w-8
+{ width:630px; }
+body.one-col .block.w-3,
+body.one-col .block.w-4,
+body.one-col .block.w-5,
+body.one-col .block.w-6,
+body.one-col .block.w-7,
+body.one-col .block.w-8
+{ width:300px; }
+
+body.one-col .h-1,
+body.one-col .h-2,
+body.one-col .h-3,
+body.one-col .h-4
+{ height:auto !important; }
+
+body.two-col .w-4 .item.full img ~ h4,
+body.two-col .w-4 .item.full img ~ blockquote
+{ margin-left:330px; }
+body.three-col .w-4 .item.full img ~ h4,
+body.three-col .w-4 .item.full img ~ blockquote
+{ margin-left:330px; }

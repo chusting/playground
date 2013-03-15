@@ -15,7 +15,7 @@ $folders = array_filter(glob('*'), 'is_dir');
 		    <ul class="nav">
 		      <li><a href="/index.php">Home</a></li>
 				  <?php foreach($folders as $folder) :?>
-				  <li><a href="/index.php/<?php echo $folder; ?>"><?php echo $folder; ?></a></li>
+				  <li><a href="/index.php/<?php echo $folder; ?>"><?php echo ucfirst($folder); ?></a></li>
 				  <?php endforeach; ?>
 		    </ul>
       </div><!--/.nav-collapse -->
